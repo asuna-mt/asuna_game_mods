@@ -53,6 +53,7 @@ minetest.register_alias("bushes:youngtree2_bottom","air")
 
 -- Alias Plantlife young trees to air
 minetest.register_alias("youngtrees:bamboo","air")
+minetest.register_alias("youngtrees:youngtree_top","air")
 minetest.register_alias("youngtrees:youngtree_middle","air")
 minetest.register_alias("youngtrees:youngtree_bottom","air")
 
