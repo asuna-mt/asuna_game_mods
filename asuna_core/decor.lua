@@ -363,17 +363,8 @@ minetest.register_on_mods_loaded(function()
 		minetest.register_decoration({
 			name = "butterflies:butterfly",
 			deco_type = "simple",
-			place_on = {
-				"default:dirt_with_grass",
-				"prairie:prairie_dirt_with_grass",
-				"dorwinion:dorwinion_grass",
-				"ethereal:bamboo_dirt",
-				"naturalbiomes:alpine_litter",
-				"naturalbiomes:heath_litter",
-				"naturalbiomes:heath_litter2",
-				"naturalbiomes:heath_litter3",
-			},
-			place_offset_y = 2,
+			place_on = "group:soil",
+			place_offset_y = 1,
 			sidelen = 80,
 			fill_ratio = 0.005,
 			biomes = {
@@ -386,6 +377,7 @@ minetest.register_on_mods_loaded(function()
 				"sakura",
 				"naturalbiomes:heath",
 				"naturalbiomes:alpine",
+				"everness:bamboo_forest",
 			},
 			y_max = 31000,
 			y_min = 1,
@@ -407,19 +399,7 @@ minetest.register_on_mods_loaded(function()
 		minetest.register_decoration({
 			name = "fireflies:firefly_low",
 			deco_type = "simple",
-			place_on = {
-				"default:dirt_with_grass",
-				"default:dirt_with_coniferous_litter",
-				"default:dirt",
-				"prairie:prairie_dirt_with_grass",
-				"badland:badland_grass",
-				"dorwinion:dorwinion_grass",
-				"naturalbiomes:alderswamp_litter",
-				"naturalbiomes:alpine_litter",
-				"naturalbiomes:bushland_bushlandlitter",
-				"naturalbiomes:bushland_bushlandlitter2",
-				"naturalbiomes:bushland_bushlandlitter3",
-			},
+			place_on = "group:soil",
 			place_offset_y = 2,
 			sidelen = 16,
 			noise_params = {
@@ -442,7 +422,8 @@ minetest.register_on_mods_loaded(function()
 				"marsh",
 				"naturalbiomes:alderswamp",
 				"naturalbiomes:alpine",
-				"naturalbiomes:bushland"
+				"naturalbiomes:bushland",
+				"everness:bamboo_forest",
 			},
 			y_max = 31000,
 			y_min = -1,
