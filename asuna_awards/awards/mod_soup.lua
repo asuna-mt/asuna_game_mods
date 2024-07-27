@@ -5,9 +5,11 @@ return function(award)
     "soup:tomato_soup",
     "soup:mushroom_soup",
     "soup:chicken_noodle_soup",
+    "x_farming:beetroot_soup",
+    "farming:pea_soup",
   }) do
     table.insert(goals,{
-      description = "Cook " .. minetest.registered_craftitems[item].description,
+      description = "Cook " .. minetest.registered_items[item].description,
       trigger = {
         type = "craft",
         target = 1,
