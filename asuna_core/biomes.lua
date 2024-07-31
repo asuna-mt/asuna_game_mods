@@ -673,6 +673,7 @@ asuna.biomes = {
     seabed = "default:sand",
     ocean = "tropical",
     cave = "mineral_waters",
+    cave_stone = "everness:mineral_cave_stone",
     dungeon = "serpentine",
   },
 
@@ -1096,6 +1097,7 @@ asuna.biomes = {
     deep_seabed = "everness:mineral_sand",
     ocean = "tropical",
     cave = "mineral_waters",
+    cave_stone = "everness:mineral_cave_stone",
     dungeon = {
       node = "everness:mineral_stone_brick",
       alt = "everness:mineral_stone_brick_with_growth",
@@ -1183,6 +1185,7 @@ for biome,def in pairs(asuna.biomes) do
     table.insert(ocean_group,below_name)
     asuna.biome_groups[ocean_group_name] = ocean_group
 
+    local below_stone = def.cave_stone or "default:stone"
     supplementary_biomes[below_name] = {
       name = def.name .. " Below",
       heat = def.heat,
@@ -1190,9 +1193,9 @@ for biome,def in pairs(asuna.biomes) do
       y_min = -31000,
       y_max = -1,
       nodes = {
-        "default:stone", 0,
-        "default:stone", 0,
-        "default:stone",
+        below_stone, 0,
+        below_stone, 0,
+        below_stone,
       },
       flowers = {},
       mushrooms = {},
