@@ -5,15 +5,15 @@
 -- Set heat noise params
 minetest.set_mapgen_setting_noiseparams("mg_biome_np_heat",{
   flags = "default",
-  lacunarity = 0.6,
-  persistence = 0.9,
+  lacunarity = 1,
+  persistence = 0.925,
   seed = 5349,
   spread = {
     x = 2000,
     y = 2000,
     z = 2000,
   },
-  scale = 60,
+  scale = 42,
   octaves = 2,
   offset = 50,
 },true)
@@ -21,15 +21,15 @@ minetest.set_mapgen_setting_noiseparams("mg_biome_np_heat",{
 -- Set humidity noise params
 minetest.set_mapgen_setting_noiseparams("mg_biome_np_humidity",{
   flags = "default",
-  lacunarity = 0.6,
-  persistence = 0.9,
+  lacunarity = 1,
+  persistence = 0.925,
   seed = 842,
   spread = {
     x = 2000,
     y = 2000,
     z = 2000,
   },
-  scale = 60,
+  scale = 42,
   octaves = 2,
   offset = 50,
 },true)
