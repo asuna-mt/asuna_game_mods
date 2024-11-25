@@ -12,6 +12,7 @@ return function(award)
           awards.unlock(player_name,award)
         end
       end
+      ogbsn()
     end
   else
     local ogborc = beds.on_rightclick
