@@ -11,7 +11,6 @@ All of the music in this mod is listed/credited below by author, license, and so
   - Tears In Rain (tearsinrain.ogg)*
   - The Long Way Home (thelongwayhome.ogg)*
   - Cobalt (cobalt.ogg)*
-  - Moonlight (moonlight.ogg)*
   - Hymn (hymn.ogg)*
   - Reverie (reverie.ogg)*
   - Simplicity (simplicity.ogg)*
@@ -23,10 +22,18 @@ All of the music in this mod is listed/credited below by author, license, and so
   - Infinite Peace (infinitepeace.ogg)*
   - Meditating Beat (meditatingbeat.ogg)*
 - **Rafael Krux** -- [CC0](https://creativecommons.org/publicdomain/zero/1.0/), <https://www.freepd.com/>
-  - Walking Stars (walkingstars.ogg)*
   - Pond (pond.ogg)*
 - **Jason Shaw** -- [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode), <https://audionautix.com/>
   - Antarctica (antarctica.ogg)*
   - One Fine Day (onefineday.ogg)*
   - The Visitors (thevisitors.ogg)*
   - Sunrise on Mars (sunriseonmars.ogg)*
+- **Sascha Ende** -- [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode), <https://filmmusic.io/>
+  - Atemubüngen (atemubungen.ogg)*
+  - Breezy Reflections (breezyreflections.ogg)*
+  - Dreamsphere 1 (dreamsphere1.ogg)*
+  - Dreamsphere 2 (dreamsphere2.ogg)*
+  - Dreamsphere 4 (dreamsphere4.ogg)*
+  - End Titles (endtitles.ogg)*
+  - Image Film 033 (imagefilm033.ogg)*
+  - Lonely Fish (lonelyfish.ogg)*

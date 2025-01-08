@@ -36,6 +36,8 @@ for track,length in pairs({
   onefineday = 51,
   antarctica = 65,
   simplicity = 122,
+  endtitles = 135,
+  imagefilm033 = 121,
 }) do
   music.register_track({
     name = track,
@@ -56,10 +58,16 @@ for track,length in pairs({
   jul = 204,
   skyward = 149,
   thelongwayhome = 171,
-  moonlight = 176,
-  walkingstars = 172,
+  --moonlight = 176,
+  --walkingstars = 172,
   hymn = 73,
   reverie = 136,
+  atemubungen = 177,
+  breezyreflections = 91,
+  dreamsphere1 = 177,
+  dreamsphere2 = 109,
+  dreamsphere4 = 104,
+  lonelyfish = 107,
 }) do
   music.register_track({
     name = track,
