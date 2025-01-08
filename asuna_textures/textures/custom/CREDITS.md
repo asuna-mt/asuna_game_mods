@@ -1,0 +1,1 @@
+- `crosshair.png` and `object_crosshair.png` created from scratch by EmptyStar, dedicated to the public domain, [CC0](https://creativecommons.org/publicdomain/zero/1.0/)
