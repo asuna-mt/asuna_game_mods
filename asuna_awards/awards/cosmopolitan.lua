@@ -5,6 +5,7 @@ return function(award)
   local excluded_biomes = {
     mountain = true,
     underground = true,
+    quicksand = true,
   }
   for _,biome in ipairs(asuna.biome_groups.base) do
     if not excluded_biomes[biome] then
