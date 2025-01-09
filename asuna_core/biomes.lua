@@ -7,8 +7,8 @@ asuna.biomes = {
     name = "Mountain",
     heat = 50,
     humidity = 50,
-    y_min = 140,
-    y_max = 31000,
+    y_min = -31000,
+    y_max = -31000,
     nodes = {
       "default:snow", 1,
       "default:snowblock", 2,
@@ -28,7 +28,7 @@ asuna.biomes = {
     heat = 51,
     humidity = 54,
     y_min = 4,
-    y_max = 92,
+    y_max = 31000,
     y_blend = 4,
     nodes = {
       "default:dirt_with_grass", 1,
@@ -69,7 +69,7 @@ asuna.biomes = {
     heat = 54,
     humidity = 32,
     y_min = 4,
-    y_max = 92,
+    y_max = 31000,
     y_blend = 4,
     nodes = {
       "default:dry_dirt_with_dry_grass", 1,
@@ -91,7 +91,7 @@ asuna.biomes = {
     heat = 47,
     humidity = 47,
     y_min = 4,
-    y_max = 32,
+    y_max = 31000,
     y_blend = 4,
     nodes = {
       "prairie:prairie_dirt_with_grass", 1,
@@ -389,7 +389,7 @@ asuna.biomes = {
     heat = 73,
     humidity = 94,
     y_min = 4,
-    y_max = 36,
+    y_max = 31000,
     y_blend = 4,
     nodes = {
       "ethereal:mushroom_dirt", 1,
@@ -546,7 +546,7 @@ asuna.biomes = {
     heat = 35,
     humidity = 40,
     y_min = 4,
-    y_max = 92,
+    y_max = 31000,
     y_blend = 4,
     nodes = {
       "default:dirt_with_grass", 1,
@@ -591,11 +591,11 @@ asuna.biomes = {
   jumble = {
     name = "Jumble",
     heat = 56,
-    humidity = 95,
+    humidity = 93,
     y_min = 4,
     y_max = 31000,
     nodes = {
-      "default:dirt_with_grass", 1,
+      "default:dirt_with_rainforest_litter", 1,
       "default:dirt", 3,
     },
     flowers = {"yellow","green","orange","black"},
@@ -605,7 +605,7 @@ asuna.biomes = {
     shore = "default:sand",
     seabed = "default:sand",
     ocean = "temperate",
-    cave = "mushroom",
+    cave = "fungal",
     dungeon = {
       node = "default:mossycobble",
       alt = "default:mossycobble",
@@ -638,7 +638,7 @@ asuna.biomes = {
     heat = 44,
     humidity = 75,
     y_min = 4,
-    y_max = 40,
+    y_max = 31000,
     y_blend = 6,
     nodes = {
       "ethereal:bamboo_dirt", 1,
@@ -703,7 +703,7 @@ asuna.biomes = {
     heat = 82,
     humidity = 65,
     y_min = 4,
-    y_max = 40,
+    y_max = 31000,
     y_blend = 2,
     nodes = {
       "ethereal:grove_dirt", 1,
