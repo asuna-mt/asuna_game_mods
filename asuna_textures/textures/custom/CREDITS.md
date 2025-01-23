@@ -1,1 +1,4 @@
-- `crosshair.png` and `object_crosshair.png` created from scratch by EmptyStar, dedicated to the public domain, [CC0](https://creativecommons.org/publicdomain/zero/1.0/)
+- `crosshair.png`, `object_crosshair.png`, and `ethereal_mushroom_block.png` created from scratch by EmptyStar, dedicated to the public domain, [CC0](https://creativecommons.org/publicdomain/zero/1.0/)
+- `vessels_glass_bottle_mask.png` derivied from `vessels_glass_bottle.png` by Mirtilo from the Baunilha texture pack, licensed [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+- `default_mese_block.png` is a re-palette of a texture by JoeEnderman, originally dedicated to the public domain [CC0](https://creativecommons.org/publicdomain/zero/1.0/), edited by EmptyStar and also dedicated to the public domain [CC0](https://creativecommons.org/publicdomain/zero/1.0/)
+- `farming_tomato_soup.png` and `ethereal_mushroom_soup.png` by JoeEnderman, dedicated to the public domain [CC0](https://creativecommons.org/publicdomain/zero/1.0/)
