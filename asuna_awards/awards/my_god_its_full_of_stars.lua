@@ -10,5 +10,6 @@ return function(award)
     description = "Teleport using a teleportation beacon",
     difficulty = 60,
     icon = "[inventorycube{telemosaic_beacon_top.png{telemosaic_beacon_side.png{telemosaic_beacon_side.png",
+    condition = asuna.content.wayfarer.worldgate,
   }
 end

@@ -2,11 +2,12 @@ return function(award)
   -- Process all soup items
   local goals = { target = 1 }
   for _,item in ipairs({
-    "soup:tomato_soup",
-    "soup:mushroom_soup",
+    "farming:tomato_soup",
+    "ethereal:mushroom_soup",
     "soup:chicken_noodle_soup",
     "x_farming:beetroot_soup",
     "farming:pea_soup",
+    "farming:onion_soup",
   }) do
     table.insert(goals,{
       description = "Cook " .. minetest.registered_items[item].description,

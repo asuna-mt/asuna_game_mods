@@ -7,7 +7,7 @@ return function(award)
   for bottle,def in pairs(bottles.registered_filled_bottles) do
     table.insert(goals,{
       id = bottle:gsub(":","_"),
-      description = "Bottle " .. def.description:gsub("Bottle of ",""),
+      description = def.description:split("\n")[1],
     })
   end
 

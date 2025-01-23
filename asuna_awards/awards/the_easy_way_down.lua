@@ -9,5 +9,6 @@ return function(award)
     title = "The Easy Way Down",
     description = "Take fall damage",
     icon = "drop_btn.png",
+    condition = core.settings:get_bool("enable_damage"),
   }
 end

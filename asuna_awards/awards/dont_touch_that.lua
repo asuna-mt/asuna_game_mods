@@ -10,5 +10,6 @@ return function(award)
     description = "Take damage from a harmful node",
     difficulty = 15,
     icon = "fire_basic_flame.png",
+    condition = core.settings:get_bool("enable_damage"),
   }
 end
