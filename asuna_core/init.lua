@@ -8,6 +8,7 @@ asuna = {
     },
     wayfarer = {
       enabled = core.settings:get_bool("asuna.content.wayfarer.enabled",true),
+      awards = core.settings:get_bool("asuna.content.wayfarer.enabled",true) and core.settings:get_bool("asuna.content.wayfarer.awards",true),
       loot_chests = core.settings:get_bool("asuna.content.wayfarer.enabled",true) and core.settings:get_bool("asuna.content.wayfarer.loot_chests",true),
       worldgate = core.settings:get_bool("asuna.content.wayfarer.enabled",true) and core.settings:get_bool("asuna.content.wayfarer.worldgate",true),
     },
@@ -16,8 +17,13 @@ asuna = {
       animals = core.settings:get_bool("asuna.content.menagerie.enabled",true) and core.settings:get_bool("asuna.content.menagerie.animals",true),
       slimes = core.settings:get_bool("asuna.content.menagerie.enabled",true) and core.settings:get_bool("asuna.content.menagerie.slimes",true),
     },
-    epiphany = {
-      enabled = core.settings:get_bool("asuna.content.epiphany.enabled",true),
+    research = {
+      enabled = core.settings:get_bool("asuna.content.research.enabled",true),
+    },
+  },
+  settings = {
+    particles = {
+      amount = core.settings:get("asuna.settings.particles.amount","less") or "less",
     },
   },
 }
@@ -34,4 +40,3 @@ runfile("climate")
 runfile("caves")
 runfile("decor")
 runfile("music")
-runfile("alias")

@@ -316,7 +316,7 @@ asuna.biomes = {
     dungeon = "galena",
   },
 
-  sandstone = {
+  sandstone_desert = {
     name = "Sandstone Desert",
     heat = 74,
     humidity = 7,
@@ -351,6 +351,7 @@ asuna.biomes = {
     nodes = {
       "naturalbiomes:savannalitter", 1,
       "default:dirt", 3,
+      extra = {"default:dry_dirt_with_dry_grass"},
     },
     flowers = {"orange","yellow"},
     mushrooms = {},
@@ -499,27 +500,6 @@ asuna.biomes = {
     dungeon = "howlite",
   },
 
-  ["naturalbiomes:palmbeach"] = {
-    name = "Palm Beach",
-    heat = 90,
-    humidity = 55,
-    y_min = 1,
-    y_max = 4,
-    nodes = {
-      "naturalbiomes:palmbeach_sand", 1,
-      "default:sandstone", 3,
-    },
-    flowers = {},
-    mushrooms = {},
-    animals = {"bird"},
-    crops = {},
-    shore = "naturalbiomes:palmbeach_sand",
-    seabed = "default:sand",
-    ocean = "tropical",
-    cave = "moss",
-    dungeon = "travertine",
-  },
-
   nightshade = {
     name = "Nightshade",
     heat = 28,
@@ -633,8 +613,8 @@ asuna.biomes = {
     cave = "bamboo",
   },
 
-  sakura = {
-    name = "Sakura",
+  bamboo = {
+    name = "Bamboo",
     heat = 44,
     humidity = 75,
     y_min = 4,
@@ -655,8 +635,8 @@ asuna.biomes = {
     dungeon = "howlite",
   },
 
-  junglee = {
-    name = "Jungle",
+  rainforest = {
+    name = "Rainforest",
     heat = 89,
     humidity = 77,
     y_min = 4,
@@ -1090,7 +1070,7 @@ asuna.biomes = {
     },
     flowers = {},
     mushrooms = {},
-    animals = {"tropical_fish"},
+    animals = {},
     crops = {},
     shore = "everness:mineral_sand",
     seabed = "everness:mineral_sand",

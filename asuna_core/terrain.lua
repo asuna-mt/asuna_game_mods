@@ -655,7 +655,7 @@ minetest.register_decoration({
   sidelen = 80,
   fill_ratio = 0.0000275,
   biomes = {
-    "junglee",
+    "rainforest",
     "livingjungle:jungle",
   },
   y_max = 31000,
@@ -676,7 +676,7 @@ minetest.register_decoration({
   sidelen = 80,
   fill_ratio = 0.0000175,
   biomes = {
-    "sakura",
+    "bamboo",
     "japaneseforest",
   },
   y_max = 31000,
