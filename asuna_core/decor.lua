@@ -194,11 +194,11 @@ minetest.register_on_mods_loaded(function()
   local sandy_biomes = {}
 	local desert_biomes = {
 		desert = true,
-		sandstone = true,
+		sandstone_desert = true,
 		desert_shore = true,
-		sandstone_shore = true,
+		sandstone_desert_shore = true,
 		desert_below = true,
-		sandstone_below = true,
+		sandstone_desert_below = true,
 	}
 	for biome,def in pairs(asuna.biomes) do
 		if def.shore == "default:sand" and
