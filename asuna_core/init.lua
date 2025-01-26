@@ -25,6 +25,9 @@ asuna = {
     particles = {
       amount = core.settings:get("asuna.settings.particles.amount","less") or "less",
     },
+    mod_override_warnings = {
+      enabled = core.settings:get_bool("asuna.settings.mod_override_warnings.enabled",true),
+    },
   },
 }
 
@@ -40,4 +43,4 @@ runfile("climate")
 runfile("caves")
 runfile("decor")
 runfile("music")
-runfile("bundled_mods_check")
+runfile("mod_override_warnings",asuna.settings.mod_override_warnings.enabled)

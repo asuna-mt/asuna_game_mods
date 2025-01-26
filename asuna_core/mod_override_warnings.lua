@@ -2,7 +2,7 @@ local asuna_mod_path = core.get_game_info().path .. "/mods"
 local bundled_mods = core.get_dir_list(asuna_mod_path,true)
 local warn
 
-if core.is_singleplayer() then
+if asuna.settings.mod_override_warnings.enabled then
   local messages = {}
   warn = function(mod)
     local message = "MOD OVERRIDE WARNING: Mod '" .. mod .. "' is enabled externally which overrides Asuna's version of this mod. This may cause issues."
@@ -11,7 +11,8 @@ if core.is_singleplayer() then
   end
   core.register_on_joinplayer(function(player)
     local name = player:get_player_name()
-    if name == "singleplayer" then
+    local privs = core.get_player_privs(name)
+    if privs.server or privs.debug or name == "singleplayer" then
       for _,message in ipairs(messages) do
         core.chat_send_player(name,message)
       end
@@ -29,7 +30,7 @@ for _,mod in ipairs(bundled_mods) do
   local mfiles = core.get_dir_list(mpath,false)
 
   for _,mfile in ipairs(mfiles) do
-    if mfile:find("^modpack") then
+    if mfile:find("^modpack\\.") then
       mods = core.get_dir_list(mpath,true)
       break
     end
@@ -38,7 +39,7 @@ for _,mod in ipairs(bundled_mods) do
   for _,mpath in ipairs(mods) do
     mod = mpath
     mpath = core.get_modpath(mpath)
-    if mpath and not mpath:find("[\\/]games[\\/]asuna[\\/]mods[\\/]") then
+    if mpath and not mpath:find("[\\/]games[\\/][^\\/]+[\\/]mods[\\/]") then
       warn(mod)
     end
   end
