@@ -298,7 +298,7 @@ asuna.biomes = {
     name = "Heath",
     heat = 46,
     humidity = 64,
-    y_min = 4,
+    y_min = 1,
     y_max = 31000,
     nodes = {
       "naturalbiomes:heath_litter", 1,
