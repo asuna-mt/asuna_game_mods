@@ -1252,6 +1252,7 @@ for biome,def in pairs(asuna.biomes) do
     node_water_top = frozen_ocean and "default:ice" or nil,
     depth_water_top = frozen_ocean and 3 or nil,
     node_riverbed = def.seabed,
+    depth_riverbed = 2,
     node_dungeon = def.dungeon.node,
     node_dungeon_alt = def.dungeon.alt,
     node_dungeon_stair = def.dungeon.stair,
