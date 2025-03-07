@@ -1,19 +1,23 @@
 return function(award)
-  local ogbnou = minetest.registered_tools["fireflies:bug_net"].on_use
-  minetest.override_item("fireflies:bug_net",{
-    on_use = function(itemstack, player, pointed_thing)
-      local was_firefly = pointed_thing.type == "node" and (minetest.get_node(pointed_thing.under).name == "fireflies:firefly") or false
-      local retval = ogbnou(itemstack, player, pointed_thing)
-      if was_firefly and not minetest.get_node(pointed_thing.under).name:find("^fireflies:") then
-        awards.unlock(player:get_player_name(),award)
-      end
-      return retval
-    end,
-  })
+  for _,bug in ipairs({
+    "fireflies:firefly",
+    "butterflies:butterfly_red",
+    "butterflies:butterfly_white",
+    "butterflies:butterfly_violet",
+  }) do
+    minetest.override_item(bug,{
+      after_dig_node = function(pos,oldnode,oldmeta,digger)
+        core.log("digger = " .. digger:get_player_name() .. ", item = " .. digger:get_wielded_item():get_name())
+        if digger:is_player() and digger:get_wielded_item():get_name() == "fireflies:bug_net" then
+          awards.unlock(digger:get_player_name(),award)
+        end
+      end,
+    })
+  end
 
   return {
     title = "Net Worth",
-    description = "Catch a firefly using a bug net",
+    description = "Use a bug net to catch a butterfly or a firefly",
     difficulty = 55,
     icon = "fireflies_bugnet.png",
   }
