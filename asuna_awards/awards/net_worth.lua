@@ -7,7 +7,6 @@ return function(award)
   }) do
     minetest.override_item(bug,{
       after_dig_node = function(pos,oldnode,oldmeta,digger)
-        core.log("digger = " .. digger:get_player_name() .. ", item = " .. digger:get_wielded_item():get_name())
         if digger:is_player() and digger:get_wielded_item():get_name() == "fireflies:bug_net" then
           awards.unlock(digger:get_player_name(),award)
         end
