@@ -598,7 +598,7 @@ asuna.biomes = {
     heat = 37,
     humidity = 52,
     y_min = 4,
-    y_max = 192,
+    y_max = 31000,
     nodes = {
       "default:dirt_with_grass", 1,
       "default:dirt", 3,
