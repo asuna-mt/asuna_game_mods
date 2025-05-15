@@ -20,6 +20,12 @@ asuna = {
     research = {
       enabled = core.settings:get_bool("asuna.content.research.enabled",true),
     },
+    stratosphere = {
+      enabled = core.settings:get_bool("asuna.content.stratosphere.enabled",true),
+      floatlands = core.settings:get_bool("asuna.content.stratosphere.enabled",true) and core.settings:get_bool("asuna.content.stratosphere.floatlands",true),
+      astralcraft = core.settings:get_bool("asuna.content.stratosphere.enabled",true) and core.settings:get_bool("asuna.content.stratosphere.astralcraft",true),
+      cloudcraft = core.settings:get_bool("asuna.content.stratosphere.enabled",true) and core.settings:get_bool("asuna.content.stratosphere.cloudcraft",true),
+    },
   },
   settings = {
     particles = {
@@ -41,6 +47,7 @@ end
 for _,file in ipairs({
   "biomes",
   "terrain",
+  "floatlands",
   "climate",
   "caves",
   "decor",
