@@ -28,19 +28,25 @@ asuna = {
     mod_override_warnings = {
       enabled = core.settings:get_bool("asuna.settings.mod_override_warnings.enabled",true),
     },
+    mapgen_warning = {
+      enabled = core.settings:get_bool("asuna.settings.mapgen_warning.enabled",true),
+    },
   },
 }
 
-local function runfile(file,condition)
-  if condition == nil or condition then
-    dofile(asuna.modpath .. "/" .. file .. ".lua")
-  end
+local function runfile(file)
+  dofile(asuna.modpath .. "/" .. file .. ".lua")
 end
 
-runfile("biomes")
-runfile("terrain")
-runfile("climate")
-runfile("caves")
-runfile("decor")
-runfile("music")
-runfile("mod_override_warnings",asuna.settings.mod_override_warnings.enabled)
+for _,file in ipairs({
+  "biomes",
+  "terrain",
+  "climate",
+  "caves",
+  "decor",
+  "music",
+  "mod_override_warnings",
+  "mapgen_warning",
+}) do
+  runfile(file)
+end
