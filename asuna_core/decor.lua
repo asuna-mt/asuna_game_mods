@@ -161,7 +161,28 @@ local flower_colors = {
 		"herbs:mushroom_amanita_green",
 		"herbs:mushroom_gyromitra",
 		"herbs:mushroom_galerina",
-	}
+	},
+	azalea = {
+		"beautiflowers:azalea",
+	},
+	azalea_blue = {
+		"beautiflowers:azalea_blue",
+	},
+	azalea_orange = {
+		"beautiflowers:azalea_orange",
+	},
+	azalea_red = {
+		"beautiflowers:azalea_red",
+	},
+	azalea_rouse = {
+		"beautiflowers:azalea_rouse",
+	},
+	azalea_autum = {
+		"beautiflowers:azalea_autum",
+	},
+	azalea_green = {
+		"beautiflowers:azalea_green",
+	},
 }
 
 -- Register flower decorations per biome
@@ -318,7 +339,7 @@ minetest.register_on_mods_loaded(function()
 		biomes = {"prairie"},
 		y_max = 31000,
 		y_min = 1,
-		decoration = cf({ flowers = {"blue","cyan","white","orange","yellow"} }).flowers,
+		decoration = cf({ flowers = {"blue","cyan","white","orange","yellow","azalea","azalea_blue","azalea_orange"} }).flowers,
 	})
 
 	-- Special mushroom decor for the Mushroom biome
