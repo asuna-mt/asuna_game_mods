@@ -45,9 +45,6 @@ paramat (CC BY-SA 3.0):
   default_river_water.png
   default_river_water_source_animated.png
   default_river_water_flowing_animated.png
-  default_dry_grass_side.png
-  default_dry_grass_*.png
-  default_grass_side.png -- Derived from a texture by TumeniNodes (CC-BY-SA 3.0)
   default_marram_grass_*.png -- Derived from textures by TumeniNodes (CC-BY-SA 3.0)
   default_emergent_jungle_sapling.png
   gui_hotbar.png
@@ -57,7 +54,6 @@ paramat (CC BY-SA 3.0):
 TumeniNodes (CC BY-SA 3.0):
   default_coniferous_litter.png
   default_coniferous_litter_side.png
-  default_grass.png
 
 sofar (CC BY-SA 3.0):
   default_aspen_sapling
@@ -68,7 +64,6 @@ Neuromancer (CC BY-SA 3.0):
 
 Gambit (CC BY-SA 3.0):
   default_clay_lump.png
-  default_grass_*.png
   default_paper.png
   default_sign_wall_wood.png
   default_snow.png
