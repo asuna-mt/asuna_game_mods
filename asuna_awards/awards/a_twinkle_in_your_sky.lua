@@ -2,7 +2,7 @@ return function(award)
   return {
     title = "A Twinkle in Your Sky",
     description = "Mine etherium ore",
-    difficulty = 20,
+    difficulty = 210,
     icon = "[inventorycube{default_stone.png&ethereal_etherium_ore.png{default_stone.png&ethereal_etherium_ore.png{default_stone.png&ethereal_etherium_ore.png",
     trigger = {
       type = "dig",
