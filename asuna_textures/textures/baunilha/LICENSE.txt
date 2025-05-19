@@ -1,121 +1,23 @@
-Many of the textures in this pack are edited from the original Minetest game files. Creator credits and licenses are below...
-
-
-BlockMen (CC BY-SA 3.0)
-  some of the "bed" textures
-  default_aspen_leaves.png -- Derived from Sofar's texture
-  default_tool_steelsword.png
-  default_tool_*.png
-  default_chest_front.png
-  default_chest_lock.png
-  default_chest_side.png
-  default_chest_top.png
-  farming_tool_diamondhoe.png
-  farming_tool_mesehoe.png
-  farming_tool_bronzehoe.png
-  farming_tool_steelhoe.png
-  farming_tool_stonehoe.png
-  farming_tool_woodhoe.png
+Many of the textures in this pack are edited from the original Minetest game files. Creator credits and licenses are below:
 
 Cisoun's texture pack (CC BY-SA 3.0):
-  default_sapling.png
-  default_bush_sapling.png
-  default_tree.png
   default_water.png
 
 RealBadAngel's animated water (CC BY-SA 3.0):
   default_water_source_animated.png
   default_water_flowing_animated.png
 
-Calinou (CC BY-SA 3.0):
-  default_brick.png
-  default_papyrus.png
-
-PilzAdam (CC BY-SA 3.0):
-  default_junglesapling.png
-  farming_bread.png
-
-Splizard (CC BY-SA 3.0):
-  default_pine_sapling.png
-
 paramat (CC BY-SA 3.0):
-  default_acacia_sapling.png
-  default_acacia_bush_sapling.png
-  default_acacia_tree.png
   default_river_water.png
   default_river_water_source_animated.png
   default_river_water_flowing_animated.png
   default_marram_grass_*.png -- Derived from textures by TumeniNodes (CC-BY-SA 3.0)
-  default_emergent_jungle_sapling.png
-  gui_hotbar.png
-  default_stone_brick.png
-  default_desert_stone_brick.png
 
 TumeniNodes (CC BY-SA 3.0):
   default_coniferous_litter.png
   default_coniferous_litter_side.png
 
-sofar (CC BY-SA 3.0):
-  default_aspen_sapling
-  default_aspen_tree
-
-Neuromancer (CC BY-SA 3.0):
-  default_furnace_*.png
-
-Gambit (CC BY-SA 3.0):
-  default_clay_lump.png
-  default_paper.png
-  default_sign_wall_wood.png
-  default_snow.png
-  default_snow_side.png
-  default_snowball.png
-  default_book.png
-  keys_key.png
-  keys_key_skeleton.png
-
-asl97 (CC BY-SA 3.0):
-  default_ice.png
-
-CloudyProton (CC BY-SA 3.0):
-  default_book_written.png, based on default_book.png by Gambit
-
-Mossmanikin (CC BY-SA 3.0):
-  default_fern_*.png
-
-random-geek (CC BY-SA 3.0):
-  default_blueberry_bush_sapling.png
-
-Krock (CC0 1.0):
-  default_glass.png
-  default_glass_detail.png
-
-Extex101 (CC BY-SA 3.0)
-  default_large_cactus_seedling.png
-  default_dry_shrub.png -- Derived from the original texture by celeron55
-  farming_cotton_wild.png
-
-An0n3m0us (CC BY-SA 3.0):
-  bubble.png -- Derived from a texture by BlockMen (CC BY-SA 3.0)
-
-RHRhino (CC BY-SA 3.0):
-  flowers_dandelion_white.png
-  flowers_geranium.png
-  flowers_rose.png
-  flowers_tulip.png
-  flowers_viola.png
-  
-paramat (CC BY-SA 3.0):
-  flowers_dandelion_yellow.png -- Derived from RHRhino's texture
-  flowers_tulip_black.png -- Derived from RHRhino's texture
-  flowers_chrysanthemum_green.png
-
-Vanessa Ezekowitz (CC BY-SA 3.0)
-  vessels_shelf.png
-
-
-
-All original textures in the pack are under CC-BY-SA-4.0:
-
+All other textures in the pack are original by Mirtilo, licensed [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/):
 
 Attribution-ShareAlike 4.0 International
 
