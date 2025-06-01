@@ -104,6 +104,11 @@ asuna.biomes = {
     shore = "default:sand",
     seabed = "default:sand",
     ocean = "temperate",
+    dungeon = {
+      node = "dorwinion:dorwinion_brick_with_moss",
+      alt = "dorwinion:dorwinion_brick",
+      stair = "stairs:stair_dorwinion_brick",
+    },
     cave = "dorwinion",
   },
 
@@ -291,7 +296,6 @@ asuna.biomes = {
     seabed = "default:sand",
     ocean = "temperate",
     cave = "moss",
-    dungeon = "sandstone",
   },
 
   ["naturalbiomes:heath"] = {
@@ -518,7 +522,7 @@ asuna.biomes = {
     seabed = "default:sand",
     ocean = "temperate",
     cave = "coral_forest",
-    dungeon = "soapstone",
+    dungeon = "slate",
   },
 
   grassytwo = {
