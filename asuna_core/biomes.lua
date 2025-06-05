@@ -105,8 +105,8 @@ asuna.biomes = {
     seabed = "default:sand",
     ocean = "temperate",
     dungeon = {
-      node = "dorwinion:dorwinion_brick_with_moss",
-      alt = "dorwinion:dorwinion_brick",
+      node = "dorwinion:dorwinion_brick",
+      alt = "dorwinion:dorwinion_brick_with_moss",
       stair = "stairs:stair_dorwinion_brick",
     },
     cave = "dorwinion",
@@ -130,8 +130,8 @@ asuna.biomes = {
     seabed = "default:sand",
     ocean = "temperate",
     dungeon = {
-      node = "dorwinion:dorwinion_brick_with_moss",
-      alt = "dorwinion:dorwinion_brick",
+      node = "dorwinion:dorwinion_brick",
+      alt = "dorwinion:dorwinion_brick_with_moss",
       stair = "stairs:stair_dorwinion_brick",
     },
     cave = "dorwinion",
