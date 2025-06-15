@@ -375,6 +375,26 @@ minetest.register_on_mods_loaded(function()
 		flags = "place_center_x,place_center_z",
 	})
 
+	-- Ethereal crystal spikes in Everness crystal forests
+	minetest.register_decoration({
+		name = "asuna_core:crystal_spikes",
+		deco_type = "simple",
+		place_on = "everness:dirt_with_crystal_grass",
+		noise_params = {
+			offset = -0.4,
+			scale = 0.3575,
+			spread = {x = 14, y = 14, z = 14},
+			seed = 5446,
+			octaves = 2,
+			persist = 0.62,
+			lacunarity = 0.675,
+		},
+		y_min = 5,
+		y_max = 31000,
+		biomes = "everness:crystal_forest",
+		decoration = "ethereal:crystal_spike",
+	})
+
 	--[[
 		Butterflies
 	]]
