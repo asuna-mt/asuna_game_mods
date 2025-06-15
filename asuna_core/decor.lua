@@ -381,7 +381,7 @@ minetest.register_on_mods_loaded(function()
 		deco_type = "simple",
 		place_on = "everness:dirt_with_crystal_grass",
 		noise_params = {
-			offset = -0.4,
+			offset = -0.375,
 			scale = 0.3575,
 			spread = {x = 14, y = 14, z = 14},
 			seed = 5446,
