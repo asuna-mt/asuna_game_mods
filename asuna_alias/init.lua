@@ -71,6 +71,20 @@ minetest.register_alias_force("bambooforest:bamboo_trapdoor","everness:trapdoor_
 minetest.register_alias_force("bambooforest:fence_bamboo_wood","everness:fence_bamboo_wood")
 minetest.register_alias_force("bambooforest:fence_rail_bamboo_wood","everness:fence_rail_bamboo_wood")
 
+-- Aliases for Japanese Forest sashimi that has been removed
+minetest.register_alias_force("japaneseforest:sashimi","ethereal:sashimi")
+minetest.register_alias_force("japaneseforest:sashimi_cooked","ethereal:sashimi")
+minetest.register_alias_force("japaneseforest:sashimi_brick","default:brick")
+minetest.register_alias_force("japaneseforest:sashimi_seed","farming:seed_wheat")
+minetest.register_alias_force("japaneseforest:sashimi_1","air")
+minetest.register_alias_force("japaneseforest:sashimi_2","air")
+minetest.register_alias_force("japaneseforest:sashimi_3","air")
+minetest.register_alias_force("japaneseforest:sashimi_4","air")
+minetest.register_alias_force("japaneseforest:sashimi_5","air")
+minetest.register_alias_force("japaneseforest:sashimi_6","air")
+minetest.register_alias_force("japaneseforest:sashimi_7","air")
+minetest.register_alias_force("japaneseforest:sashimi_8","air")
+
 -- Aliases for Ethereal bamboo
 minetest.register_alias_force("ethereal:bamboo_leaves","air")
 minetest.register_alias_force("ethereal:bamboo","everness:bamboo_3")
