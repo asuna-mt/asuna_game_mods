@@ -150,3 +150,6 @@ minetest.register_alias_force("naturalbiomes:coconut_slice","everness:coconut_fr
 minetest.register_alias_force("naturalbiomes:coconut","everness:coconut")
 minetest.register_alias_force("naturalbiomes:coconut_trapdoor","everness:trapdoor_bamboo")
 minetest.register_alias_force("naturalbiomes_coconut_door","everness:door_bamboo")
+
+-- Alias salt: x_farming to farming
+minetest.register_alias_force("x_farming:salt","farming:salt")
